@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container .navigation .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .navigation .links {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.container .navigation .links nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+.container .navigation .logo img {
+    width: 80px;
+}
+
+.container .navigation .links button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.container .navigation .links button i {
+    font-size: 20px;
+}
+
+.container main  {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.container main .left {
+    width: 50%;
+    height: 100%;
+}
+
+.container main .right {
+    width: 50%;
+    height: 100%;
+    display: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container main .right .section-1 span {
+    background-color: #407bff; 
+    color: #fff;
+    padding: 10px 5px; 
+    border-radius: 50px;
+}
+
+.container main .right .section-2 .buttons { 
+
+}
