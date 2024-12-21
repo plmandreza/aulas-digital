@@ -37,7 +37,7 @@ ul {
     gap: 60px;
 }
 
-.container .navigation .links nav ul{
+.container .navigation .links nav ul {
     display: flex;
     gap: 30px;
 }
@@ -59,8 +59,9 @@ ul {
 
 .container main  {
     display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 100%;
+    height: 70%;
 }
 
 .container main .left {
@@ -68,10 +69,15 @@ ul {
     height: 100%;
 }
 
+.container main .left img {
+    width: 100%;
+    height: 100%;
+}
+
 .container main .right {
     width: 50%;
     height: 100%;
-    display: center;
+    display: flex;
     justify-content: center;
     flex-direction: column;
 }
@@ -84,5 +90,64 @@ ul {
 }
 
 .container main .right .section-2 .buttons { 
+    display: flex;
+    gap: 10px;
+}
 
+.container main .right .section-2 .buttons .button { 
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container main .right .section-2 .buttons .primary {
+    border: 1px solid transparent;
+    background-color: #407bff;
+    transition: all 500ms ease;
+}
+
+.container main .right .section-2 .buttons .primary a {
+    color: #fff;
+}
+
+.container main .right .section-2 .buttons .primary:hover {
+    background-color: #345494;
+}
+
+.container main .right .section-2 .buttons .secondary {
+    border: 1px solid transparent;
+    background-color: transparent;
+    transition: all 500ms ease;
+}
+
+.container main .right .section-2 .buttons .secondary a {
+    color: #407bff;
+}
+
+.container main .right .section-2 .buttons .secondary:hover {
+    border: 1px solid #407bff;
+}
+
+.container footer {
+    display: flex;
+}
+
+.container footer .left {
+    width: 50%;
+}
+
+.container footer .right {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.container footer .right .social {
+    display: flex;
+    gap: 10px;
+}
+
+.container footer .right .social i {
+    font-size: 30px;
 }
