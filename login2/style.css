@@ -88,3 +88,47 @@ body {
     align-items: center;
     gap: 5px;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .esquerda {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .esquerda, .container .direita {
+        width: 100%;
+    }
+
+    .container .esquerda img {
+        max-width: 80%;
+    }
+
+    .container .direita .formulario {
+        width: 80%;
+    }
+
+    .container .direita {
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 0px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container .esquerda {
+        display: none;
+    }
+
+    .container .direita {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .container .direita .formulario {
+        width: 80%;
+    }
+}

@@ -42,6 +42,10 @@ ul {
     gap: 30px;
 }
 
+.container .navigation .hidden-links i {
+    font-size: 30px;
+}
+
 .container .navigation .logo img {
     width: 80px;
 }
@@ -150,4 +154,69 @@ ul {
 
 .container footer .right .social i {
     font-size: 30px;
+}
+
+#menu {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    .container main {
+        flex-direction: column;
+    }
+
+    nav, #search {
+        display: none;
+    }
+
+    .container .navigation .links {
+        border: 1px solid red;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    #menu i {
+        font-size: 30px;
+    }
+
+    .container main .left, .container main .right {
+        width: 100%;
+    }
+
+    .container main .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container main .left img {
+        max-width: 80%;
+    }
+
+    .container main .right .sections {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .container footer .left {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        justify-items: center;
+        padding: 20px;
+    }
+    
+   .container footer .right {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
 }

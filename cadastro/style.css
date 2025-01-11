@@ -28,6 +28,7 @@ body {
 
 .container .esquerda p {
     font-weight: 100;
+    text-align: center;
 }
 
 .container .esquerda button {
@@ -135,4 +136,49 @@ body {
     background-color: transparent;
     border: 1px solid #58AF9C;
     color: #58AF9C;
+}
+
+@media (max-width: 1024px) {
+    .container .esquerda p {
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .esquerda, .container .direita {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .direita .formulario {
+        width: 80%;
+    }
+
+    .container .esquerda, .container .direita {
+        width: 100%;
+    }
+}
+
+@media (max-width: 431px) {
+    .container .esquerda {
+        display: none;
+    }
+
+    .container .direita .formulario .topo h1 {
+        font-size: 30px;
+    }
+
+    .container .direita .formulario .topo p {
+        font-size: 12px;
+    }
+
+    .container .direita .formulario {
+        width: 80%;
+    }
 }
