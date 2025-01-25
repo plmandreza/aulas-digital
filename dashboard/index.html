@@ -1,143 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Dashboard - Digital College</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <div class="logo">
-                <img src="./images/infinity-logo.png" alt="Logo" width="40px">
-            </div>
-            <div class="barra-pesquisa">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search for projects">
-            </div>
-            <div class="atalhos">
-                <i class="fa-solid fa-moon"></i>
-                <i class="fa-solid fa-bell"></i>
-                <img src="https://github.com/plmandreza.png" alt="Foto de perfil">
-            </div>
-        </header>
-        <div class="principal">
-            <aside>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#" id="ativo">
-                                <i class="fa-solid fa-house"></i>
-                                <p>Dashboard</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-regular fa-clipboard"></i>
-                                <p>Forms</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-regular fa-folder"></i>
-                                <p>Cards</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-chart-pie"></i>
-                                <p>Charts</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-arrow-pointer"></i>
-                                <p>Buttons</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-regular fa-copy"></i>
-                                <p>Modals</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-bars"></i>
-                                <p>Tables</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="ultimo">
-                                    <div class="esquerda">
-                                        <i class="fa-solid fa-table-cells-large"></i>
-                                        <p>Pages</p>
-                                    </div>
-                                    <i class="fa-solid fa-chevron-down"></i>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <button>Create account +</button>
-            </aside>
-            <main>
-                <h1>Dashboard</h1>
-                <div class="card-info">
-                    <div class="esquerda">
-                        <i class="fa-solid fa-star"></i>
-                        <p>Star this project on GitHub</p>
-                    </div>
-                    <div class="direita">
-                        <a href="">View more</a>
-                    </div>
-                </div>
-                <div class="cards">
-                    <div class="card">
-                        <div class="icone icon1">
-                            <i class="fa-solid fa-users"></i>
-                        </div>
-                        <div class="info">
-                            <p>Total clients</p>
-                            <b>6389</b>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="icone icon2">
-                            <i class="fa-solid fa-money-bills"></i>
-                        </div>
-                        <div class="info">
-                            <p>Account balance</p>
-                            <b>$ 46,760.89</b>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="icone icon3">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </div>
-                        <div class="info">
-                            <p>New sales</p>
-                            <b>376</b>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="icone icon4">
-                            <i class="fa-solid fa-message"></i>
-                        </div>
-                        <div class="info">
-                            <p>Pending contacts</p>
-                            <b>35</b>
-                        </div>
-                    </div>
-                </div>
-            </main>
+      <header>
+        <div class="logo">
+          <img src="./images/infinity-logo.png" alt="Logo" width="40px" />
         </div>
+        <div class="barra-pesquisa">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search for projects" />
+        </div>
+        <div class="atalhos">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-bell"></i>
+          <img src="https://github.com/plmandreza.png" alt="Foto de perfil" />
+        </div>
+      </header>
+      <div class="principal">
+        <aside>
+          <nav>
+            <ul>
+              <li>
+                <a href="#" id="ativo">
+                  <i class="fa-solid fa-house"></i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-regular fa-clipboard"></i>
+                  <p>Forms</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-regular fa-folder"></i>
+                  <p>Cards</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-chart-pie"></i>
+                  <p>Charts</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-arrow-pointer"></i>
+                  <p>Buttons</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-regular fa-copy"></i>
+                  <p>Modals</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-bars"></i>
+                  <p>Tables</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="ultimo">
+                    <div class="esquerda">
+                      <i class="fa-solid fa-table-cells-large"></i>
+                      <p>Pages</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button>Create account +</button>
+        </aside>
+        <main>
+          <h1>Dashboard</h1>
+          <div class="card-info">
+            <div class="esquerda">
+              <i class="fa-solid fa-star"></i>
+              <p>Star this project on GitHub</p>
+            </div>
+            <div class="direita">
+              <a href="">View more</a>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div class="icone icon1">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="info">
+                <p>Total clients</p>
+                <b>6389</b>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="icone icon2">
+                <i class="fa-solid fa-money-bills"></i>
+              </div>
+              <div class="info">
+                <p>Account balance</p>
+                <b>$ 46,760.89</b>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="icone icon3">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div class="info">
+                <p>New sales</p>
+                <b>376</b>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="icone icon4">
+                <i class="fa-solid fa-comment-dots"></i>
+              </div>
+              <div class="info">
+                <p>Pending contacts</p>
+                <b>35</b>
+              </div>
+            </div>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Client</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="cliente-info">
+                    <img
+                      src="https://github.com/plmandreza.png"
+                      alt="Imagem do cliente"
+                    />
+                    <div class="info">
+                        <strong>Andreza</strong>
+                        <p>Direct Security Executive</p>
+                    </div>
+                  </div>
+                </td>
+                <td>$ 934.24</td>
+                <td>
+                    <div class="status" id="pago">
+                        Success
+                    </div>
+                </td>
+                <td>1/25/2025</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="cliente-info">
+                    <img
+                      src="https://github.com/plmandreza.png"
+                      alt="Imagem do cliente"
+                    />
+                    <div class="info">
+                        <strong>Andreza</strong>
+                        <p>Direct Security Executive</p>
+                    </div>
+                  </div>
+                </td>
+                <td>$ 351.28</td>
+                <td>
+                    <div class="status" id="pendente">
+                        Warning
+                    </div>
+                </td>
+                <td>1/25/2025</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="cliente-info">
+                    <img
+                      src="https://github.com/plmandreza.png"
+                      alt="Imagem do cliente"
+                    />
+                    <div class="info">
+                        <strong>Andreza</strong>
+                        <p>Direct Security Executive</p>
+                    </div>
+                  </div>
+                </td>
+                <td>$ 471.44</td>
+                <td>
+                    <div class="status" id="cancelado">
+                        Danger
+                    </div>
+                </td>
+                <td>1/25/2025</td>
+              </tr>
+            </tbody>
+          </table>
+        </main>
+      </div>
     </div>
-</body>
+  </body>
 </html>
