@@ -11,6 +11,24 @@ console.log('Hello, World!');
 //      cidade: 'Salvador',
 //      maiorDeIdade: true
 // }
+// null
+// undefined
+
+// Declaração de variáveis
+// let - pode ser reatribuído, declara variáveis mutáveis com valores que podem ser alterados.
+// const - para declarar variáveis imutáveis (valores que não podem ser alterados).
+// var - modo mais antigo de declarar variáveis (evitar usar).
+
+// Estruturas condicionais
+// Permitem ao programa tomar decisões com base em condições específicas.
+// if e else (mais comuns) executam blocos que dependem de condições verdadeiras ou falsas.
+// else if - "e se", múltiplas condições, antes do else.
+
+// Tipos de comparação
+// == igual === estritamente igual
+// > maior que < menor que
+// >= maior igual <= menor igual
+// != diferente !== estritamente diferente
 
 // console.log('Fabio');
 var nome = 'Fabio';
